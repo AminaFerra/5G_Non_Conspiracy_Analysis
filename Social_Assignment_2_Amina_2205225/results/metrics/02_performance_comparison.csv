@@ -1,0 +1,11 @@
+,Accuracy,F1-Score (Bot),Recall (Bot),F1-Score (Human),Recall (Human),Model,Scenario,Train_Acc,Train_F1
+0,0.9616,0.7207,1.0,0.9794,0.9596,GraphSAGE,Baseline,0.9647,0.7311
+1,0.8849,0.4151,0.825,0.9362,0.888,GCN,Baseline,0.883,0.422
+2,0.9468,0.5825,0.75,0.9716,0.957,GraphSAGE,Evasion Attack,0.9647,0.7311
+3,0.9035,0.371,0.575,0.9477,0.9206,GCN,Evasion Attack,0.883,0.422
+4,0.9616,0.7207,1.0,0.9794,0.9596,GraphSAGE,Evasion Attack (on Clean Data),0.9647,0.7311
+5,0.8849,0.4151,0.825,0.9362,0.888,GCN,Evasion Attack (on Clean Data),0.883,0.422
+6,0.948,0.65,0.975,0.9719,0.9466,GraphSAGE,Poisoning Attack (on Poisoned Data),0.9523,0.6681
+7,0.9344,0.5827,0.925,0.9644,0.9349,GraphSAGE,Poisoning Attack (on Clean Data),0.9523,0.6681
+8,0.8861,0.4177,0.825,0.9369,0.8893,GCN,Poisoning Attack (on Poisoned Data),0.8771,0.3994
+9,0.8255,0.3188,0.825,0.8999,0.8255,GCN,Poisoning Attack (on Clean Data),0.8771,0.3994
